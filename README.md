@@ -10,8 +10,7 @@ A real-time 3D graphics engine written from scratch in Python. It renders a rota
 
 ### 📹 Demo
 
-**`![star.gif]`**
-
+![](https://github.com/HanadAbd/star.py/blob/main/star.gif)
 
 
 
@@ -20,17 +19,6 @@ A real-time 3D graphics engine written from scratch in Python. It renders a rota
 - **Dynamic Lighting:** Simulates a light source using the dot product between surface normals and a light vector to create depth and shading.
 - **Z-Buffering:** Implements a z-buffer for correct depth sorting, ensuring that closer faces and particles correctly occlude those behind them.
 - **Particle System:** Features a background "hyperspace" effect with 300 stars moving toward the viewer, rendered using the Bresenham line algorithm to create motion trails.
-
-## Tech Stack
-
-- **Language:** **Python 3**
-- **Core Concepts:**
-  - 3D Vector Math (Dot Product, Cross Product)
-  - Rotation Matrices & Euler Angles
-  - Perspective Projection
-  - Gouraud Shading (per-triangle lighting)
-  - Z-Buffer (Depth Buffer) Algorithm
-  - Bresenham's Line Algorithm
 
 ## Getting Started
 
@@ -61,6 +49,17 @@ To run this project locally, follow these simple steps.
     ```
 
     *Press `CTRL+C` to exit the animation.*
+
+## Tech Stack
+
+- **Language:** **Python 3**
+- **Core Concepts:**
+  - 3D Vector Math (Dot Product, Cross Product)
+  - Rotation Matrices & Euler Angles
+  - Perspective Projection
+  - Gouraud Shading (per-triangle lighting)
+  - Z-Buffer (Depth Buffer) Algorithm
+  - Bresenham's Line Algorithm
 
 ## How It Works
 
